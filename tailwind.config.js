@@ -7,12 +7,48 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      minHeight: {
+        'screen-3/4': '75vh',
+        'screen-1/2': '50vh',
+        'screen-1/3': '33vh',
+        'screen-2/3': '66vh',
+        'screen-1/4': '25vh',
+        '45%': '45vh',
+      },
+      minWidth: {
+        'screen-1/2': '50vw',
+        'screen-1/3': '33vw',
+        'screen-2/3': '66vw',
+        'screen-1/4': '25vw',
+        'screen-3/4': '75vw',
+
+      },
+      maxHeight: {
+        'screen-3/4': '75vh',
+        'screen-1/2': '50vh',
+        'screen-1/3': '33vh',
+        'screen-2/3': '66vh',
+        'screen-1/4': '25vh',
+      },
+      maxWidth: {
+        'screen-1/2': '50vw',
+        'screen-1/3': '33vw',
+        'screen-2/3': '66vw',
+        'screen-1/4': '25vw',
+        'screen-3/4': '75vw',
+
+      },
+      rotate: {
+        '135': '135deg',
+        '225': '225deg',
+        '315': '315deg',
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('daisyui'),
+  ],
+  daisyui: {
+    themes: ["dark", "bumblebee"],
+  },
 };

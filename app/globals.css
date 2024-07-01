@@ -2,32 +2,177 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
+/* Global text styles */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  @apply text-base lg:text-xl;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+h2 {
+  @apply text-4xl lg:text-7xl font-semibold;
+}
+
+h3 {
+  @apply text-xl lg:text-2xl font-semibold;
+}
+
+/* -- Scrolling Behaviour -- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* -- Wave Animation -- */
+
+.wave {
+  position: absolute;
+  bottom: 0rem;
+  left: 0;
+  height: 7rem;
+  width: 100%;
+  background: url("./images/wave.png");
+  background-size: 100rem 9rem;
+  animation: waves 8s linear infinite;
+  background-repeat: repeat-x;
+}
+
+.wave2 {
+  animation-direction: reverse;
+  animation-duration: 6s;
+  opacity: 0.3;
+}
+
+.wave3 {
+  animation-duration: 4s;
+  opacity: 0.5;
+}
+
+@keyframes waves {
+  0% {
+    background-position-x: 0;
   }
+  100% {
+    background-position-x: 100rem;
+  }
+}
+
+/* -- Skill Marquee -- */
+
+.wrapper {
+  width: 100%;
+  max-width: 3000px;
+  position: relative;
+  height: 48px;
+  overflow: hidden;
+  mask-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 1) 10%,
+    rgba(0, 0, 0, 1) 90%,
+    rgba(0, 0, 0, 0)
+  );
+}
+
+/* Media query for screens up to large (less than 1024px) */
+@media (min-width: 1024px) {
+  .wrapper {
+    height: 80px;
+  }
+}
+
+.item {
+  position: absolute;
+  left: max(calc(128px * 21), 100%);
+  animation: scrollLeft 45s linear infinite;
+}
+
+@media (min-width: 1024px) {
+  .item {
+    left: max(calc(160px * 21), 100%);
+  }
+}
+
+@keyframes scrollLeft {
+  to {
+    left: -128px;
+  }
+}
+
+@media (min-width: 1024px) {
+  @keyframes scrollLeft {
+    to {
+      left: -160px;
+    }
+  }
+}
+
+/* 
+  Formula:
+  calc(animation-duration[in s, from .item above] / number of items * (number of items - item number) * -1)
+*/
+.item1 {
+  animation-delay: calc(45s / 21 * (21 - 1) * -1);
+}
+.item2 {
+  animation-delay: calc(45s / 21 * (21 - 2) * -1);
+}
+.item3 {
+  animation-delay: calc(45s / 21 * (21 - 3) * -1);
+}
+.item4 {
+  animation-delay: calc(45s / 21 * (21 - 4) * -1);
+}
+.item5 {
+  animation-delay: calc(45s / 21 * (21 - 5) * -1);
+}
+.item6 {
+  animation-delay: calc(45s / 21 * (21 - 6) * -1);
+}
+.item7 {
+  animation-delay: calc(45s / 21 * (21 - 7) * -1);
+}
+.item8 {
+  animation-delay: calc(45s / 21 * (21 - 8) * -1);
+}
+.item9 {
+  animation-delay: calc(45s / 21 * (21 - 9) * -1);
+}
+.item10 {
+  animation-delay: calc(45s / 21 * (21 - 10) * -1);
+}
+.item11 {
+  animation-delay: calc(45s / 21 * (21 - 11) * -1);
+}
+.item12 {
+  animation-delay: calc(45s / 21 * (21 - 12) * -1);
+}
+.item13 {
+  animation-delay: calc(45s / 21 * (21 - 13) * -1);
+}
+.item14 {
+  animation-delay: calc(45s / 21 * (21 - 14) * -1);
+}
+.item15 {
+  animation-delay: calc(45s / 21 * (21 - 15) * -1);
+}
+.item16 {
+  animation-delay: calc(45s / 21 * (21 - 16) * -1);
+}
+.item17 {
+  animation-delay: calc(45s / 21 * (21 - 17) * -1);
+}
+.item18 {
+  animation-delay: calc(45s / 21 * (21 - 18) * -1);
+}
+.item19 {
+  animation-delay: calc(45s / 21 * (21 - 19) * -1);
+}
+.item20 {
+  animation-delay: calc(45s / 21 * (21 - 20) * -1);
+}
+.item21 {
+  animation-delay: calc(45s / 21 * (21 - 21) * -1);
+}
+
+/* -- Blog Cards -- */
+.bordered-bottom {
+  border-bottom: 1px solid grey;
 }
