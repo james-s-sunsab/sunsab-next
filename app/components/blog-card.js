@@ -5,7 +5,7 @@ export default function BlogCard({ post, className }) {
     return (
         <article className={`flex flex-col lg:flex-row items-center gap-8 bg-gray-900 text-white p-8 max-w-full ${className}`} >
             <Image
-                src={`/blogs/${post.image}`}
+                src={`/sunsab-next/blogs/${post.image}`}
                 alt={`Image for ${post.title}`}
                 width={post.width}
                 height={post.height}
