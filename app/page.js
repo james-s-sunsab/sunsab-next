@@ -84,7 +84,7 @@ export default function Home() {
         <div className="flex justify-center mt-8 lg:mt-16">
           <Link
             className="group transition-all duration-300 ease-in-out text-black text-base lg:text-lg btn btn-primary"
-            href="/sunsab-next/Sunsab-Lookbook.pdf"
+            href="/Sunsab-Lookbook.pdf"
             download
             aria-label="Download the Lookbook"
             prefetch={false}
