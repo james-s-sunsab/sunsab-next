@@ -58,7 +58,7 @@ export default function Home() {
       <section id="projects" className="w-full p-8 lg:p-16">
         <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-16">
           {projects.map((project, index) => (
-            <article key={index} className="relative lg:max-w-4xl group transition-transform transform lg:hover:scale-105 ease-in-out duration-500">
+            <article key={index} className="relative w-full lg:w-1/2 xl:w-1/3 group transition-transform transform lg:hover:scale-105 ease-in-out duration-500">
               <Image
                 src={project.image}
                 alt={project.title}
@@ -66,7 +66,7 @@ export default function Home() {
                 height={project.height}
                 quality={100}
                 className="transition-transform transform lg:group-hover:shadow-2xl duration-500"
-                sizes="(max-width: 1023px) calc(100vw - 32px), (min-width: 1024px) and (max-width: 1279px) calc(50vw - 32px), (min-width: 1280px) calc(33vw - 32px)"
+                sizes="(max-width: 1023px) calc(100vw - 16px), (min-width: 1024px) and (max-width: 1279px) calc(50vw - 32px), (min-width: 1280px) calc(33vw - 32px)"
                 loading='lazy'
               />
               <div className="pt-4 grid gap-2">
