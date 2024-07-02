@@ -40,7 +40,7 @@ export default function Home() {
           </div>
           <div className="absolute lg:relative h-full lg:h-screen lg:w-1/2">
             <Image
-              src="/computer-support.webp"
+              src="/sunsab-next/computer-support.webp"
               alt="Computer support"
               width={1136}
               height={1280}
