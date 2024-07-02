@@ -58,7 +58,7 @@ export default function Home() {
       <section id="projects" className="w-full p-8 lg:p-16">
         <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-16">
           {projects.map((project, index) => (
-            <article key={index} className="relative w-full lg:w-1/2 xl:w-1/3 group transition-transform transform lg:hover:scale-105 ease-in-out duration-500">
+            <article key={index} className="relative w-full group transition-transform transform lg:hover:scale-105 ease-in-out duration-500">
               <Image
                 src={project.image}
                 alt={project.title}
