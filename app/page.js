@@ -88,6 +88,7 @@ export default function Home() {
             download
             aria-label="Download the Lookbook"
             prefetch={false}
+            target='_blank'
           >
             <span className="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_1px] lg:bg-[length:0%_2px] bg-no-repeat lg:group-hover:bg-[length:100%_2px] group-hover:bg-[length:100%_1px] transition-all duration-500 ease-out">
               Download the Lookbook

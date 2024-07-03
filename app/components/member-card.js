@@ -21,7 +21,7 @@ export default function MemberCard({ name, title, img, linkedin }) {
                 <h3 className="mt-4">{name}</h3>
                 <p className="text-base lg:text-xl">{title}</p>
                 <div className="card-actions justify-center">
-                    <Link href={linkedin} aria-label={`LinkedIn profile of ${name}`} className="mt-2">
+                    <Link href={linkedin} aria-label={`LinkedIn profile of ${name}`} className="mt-2" target="_blank">
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"

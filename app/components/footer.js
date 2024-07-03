@@ -12,7 +12,7 @@ export default function Footer() {
                         </span>
                     </a>
                     <p className="text-xl">+1 (403) 992-9021</p>
-                    <Link href="https://www.linkedin.com/company/sunsab" aria-label="Visit Sunsab LinkedIn profile">
+                    <Link href="https://www.linkedin.com/company/sunsab" aria-label="Visit Sunsab LinkedIn profile" target='_blank'>
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512"
