@@ -1,6 +1,6 @@
 [
   {
-    "image": "/sunsab-next/projects/proj1-lossy-95.webp",
+    "image": "/projects/proj1-lossy-95.webp",
     "title": "Two Sisters Art Gallery",
     "description": "An immersive experience for an art gallery.",
     "tags": ["React", "Next.js", "Firebase", "Tailwind CSS"],
@@ -8,7 +8,7 @@
     "width": 1018
   },
   {
-    "image": "/sunsab-next/projects/proj2-lossy-95.webp",
+    "image": "/projects/proj2-lossy-95.webp",
     "title": "Schedules 'R' Us",
     "description": "Efficient scheduling solutions for businesses.",
     "tags": ["React", "Tailwind CSS", "PostgreSQL", "Nest.js"],
@@ -16,7 +16,7 @@
     "width": 1457
   },
   {
-    "image": "/sunsab-next/projects/proj3-lossy-95.webp",
+    "image": "/projects/proj3-lossy-95.webp",
     "title": "AI for the Sea",
     "description": "Leveraging AI for marine research and conservation.",
     "tags": ["React", "Node.js", "Tailwind CSS", "Material-UI"],
@@ -24,7 +24,7 @@
     "width": 2102
   },
   {
-    "image": "/sunsab-next/projects/P4.webp",
+    "image": "/projects/P4.webp",
     "title": "Diamond Valley Cattery",
     "description": "Designed for browsing, managing, and purchasing cats from a breeder.",
     "tags": ["React", "Next.js", "Firebase", "Tailwind CSS"],
@@ -32,7 +32,7 @@
     "width": 1573
   },
   {
-    "image": "/sunsab-next/projects/P5.webp",
+    "image": "/projects/P5.webp",
     "title": "Nexus",
     "description": "An e-commerce platform for a variety of products.",
     "tags": [
@@ -47,7 +47,7 @@
     "width": 1045
   },
   {
-    "image": "/sunsab-next/projects/P6.webp",
+    "image": "/projects/P6.webp",
     "title": "QuickPortfolio",
     "description": "A platform for early-career computing professionals to quickly create and showcase elegant portfolios.",
     "tags": ["React", "Node.js", "Vercel", "DynamoDB", "Material-UI"],
