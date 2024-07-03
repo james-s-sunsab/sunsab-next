@@ -7,7 +7,7 @@ export default function Header() {
             <div className="navbar-start flex-1">
                 <Link href="/" aria-label="Go to home page">
                     <Image
-                        src="/sunsab-next/logo1.svg"
+                        src="/logo1.svg"
                         alt="Sunsab Logo"
                         width={200}
                         height={100}

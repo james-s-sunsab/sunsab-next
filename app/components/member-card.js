@@ -8,7 +8,7 @@ export default function MemberCard({ name, title, img, linkedin }) {
                 <div className="avatar">
                     <div className="w-56 xl:w-72 rounded-full">
                         <Image
-                            src={`/sunsab-next/profiles/${img}`}
+                            src={`/profiles/${img}`}
                             alt={`${name}'s Profile Picture`}
                             width={300}
                             height={300}
