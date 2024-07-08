@@ -7,6 +7,10 @@ body {
   @apply text-base lg:text-xl;
 }
 
+h1 {
+  @apply text-4xl lg:text-7xl font-semibold;
+}
+
 h2 {
   @apply text-4xl lg:text-7xl font-semibold;
 }
