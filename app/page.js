@@ -16,7 +16,7 @@ export default function Home() {
 
       <section id="home" className="flex items-center justify-center w-full min-h-screen-1/4">
         <div className="grid p-8 lg:p-24 gap-4 lg:max-w-4xl">
-          <h2 >Solving Problems, Building Solutions</h2>
+          <h1 >Solving Problems, Building Solutions</h1>
           <p>Sunsab is where innovation fuels passion! We&apos;re a dynamic team of software developers armed with cutting-edge expertise in modern technologies. Our mission? To harness technology&apos;s power for positive global change.</p>
           <p>We aspire to develop innovative solutions that empower individuals and businesses to thrive in a rapidly evolving digital landscape.</p>
         </div>
