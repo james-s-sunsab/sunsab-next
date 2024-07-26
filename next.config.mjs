@@ -3,10 +3,6 @@ const nextConfig = {
     basePath: '/sunsab-next',
     output: "export",
     reactStrictMode: true,
-    // images: {
-    //     loader: 'custom',
-    //     loaderFile: './app/loader.js', // Update the path to the loader file, no ak
-    // },
 }
 
 export default nextConfig
