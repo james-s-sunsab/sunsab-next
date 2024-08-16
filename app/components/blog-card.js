@@ -9,7 +9,7 @@ export default function BlogCard({ post, className }) {
                 alt={`Image for ${post.title}`}
                 width={post.width}
                 height={post.height}
-                className="object-cover lg:max-w-md max-h-screen-1/4"
+                className="object-cover lg:max-w-md max-h-screen-1/4 rounded-lg"
             />
             <div className="flex flex-col gap-2 h-full">
                 <h3 className="text-xl lg:text-4xl font-semibold">{post.title}</h3>

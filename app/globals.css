@@ -22,6 +22,7 @@ h3 {
 /* -- Scrolling Behaviour -- */
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
 }
 
 /* -- Wave Animation -- */

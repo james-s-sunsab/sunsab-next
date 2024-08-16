@@ -15,6 +15,7 @@ export default function SkillMarquee() {
                         loading='lazy'
                     />
                 </div>
+
             ))}
         </article>
     );

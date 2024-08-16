@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Header() {
     return (
-        <header className="navbar px-8 py-4">
+        <header className="sticky top-0 z-50 navbar px-8 py-4 bg-white shadow-lg">
             <div className="navbar-start flex-1">
                 <Link href="/" aria-label="Go to home page">
                     <Image
@@ -36,6 +36,9 @@ export default function Header() {
                         tabIndex={0}
                         className="menu menu-md dropdown-content bg-base-100 rounded-box z-[5] mt-3 w-52 p-2 shadow">
                         <li>
+                            <Link href="#home" aria-label="Go to the top of the page">Home</Link>
+                        </li>
+                        <li>
                             <Link href="#services" aria-label="Go to services section">Services</Link>
                         </li>
                         <li>
@@ -47,11 +50,22 @@ export default function Header() {
                         <li>
                             <Link href="#blog" aria-label="Go to blog section">Blog</Link>
                         </li>
+                        <li>
+                            <Link
+
+                                href="mailto:sales@sunsab.com"
+                                aria-label="Get a quote today"
+                                target='_blank'
+                            >
+                                Get a Quote
+                            </Link>
+                        </li>
+
                     </ul>
                 </div>
             </nav>
 
-            <nav className="navbar-end hidden lg:flex lg:text-lg">
+            <nav className="navbar-end hidden lg:flex lg:text-lg gap-16">
                 <ul className="flex flex-row gap-16 ">
                     <li>
                         <Link className="group transition-all duration-300 ease-in-out" href="#services" aria-label="Services section">
@@ -82,6 +96,17 @@ export default function Header() {
                         </Link>
                     </li>
                 </ul>
+                <Link
+                    className="group transition-all duration-300 ease-in-out text-black text-base font-normal lg:text-lg btn btn-primary"
+                    href="mailto:sales@sunsab.com"
+                    aria-label="Get a quote today"
+                    target='_blank'
+                >
+                    <span className="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_1px] lg:bg-[length:0%_2px] bg-no-repeat lg:group-hover:bg-[length:100%_2px] group-hover:bg-[length:100%_1px] transition-all duration-500 ease-out">
+                        Get a Quote
+                    </span>
+
+                </Link>
             </nav>
         </header>
     );
