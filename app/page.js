@@ -17,8 +17,8 @@ export default function Home() {
       <section id="home" className="flex items-center justify-center w-full min-h-screen-1/4">
         <div className="grid p-8 lg:p-24 gap-4 lg:max-w-4xl">
           <h1 >Solving Problems, Building Solutions</h1>
-          <p>Sunsab is where innovation fuels passion! We&apos;re a dynamic team of software developers armed with cutting-edge expertise in modern technologies. Our mission? To harness technology&apos;s power for positive global change.</p>
-          <p>We aspire to develop innovative solutions that empower individuals and businesses to thrive in a rapidly evolving digital landscape.</p>
+          <p>Sunsab is where passion fuels innovation! We&apos;re a dynamic team of software developers armed with cutting-edge expertise in modern technologies. Our mission? To harness technology&apos;s power for a positive change in the Canadian marketplace.</p>
+          <p>We aspire to develop impactful solutions that empower individuals and businesses to thrive in a rapidly evolving digital landscape.</p>
         </div>
       </section>
 
@@ -33,9 +33,7 @@ export default function Home() {
               <li>Cloud Hosting</li>
               <li>Database Management</li>
               <li>UI/UX Design</li>
-              <li>IoT Development</li>
               <li>E-commerce Solutions</li>
-              <li>Geolocation Services</li>
             </ul>
           </div>
           <div className="absolute lg:relative h-full lg:h-screen lg:w-1/2">
@@ -55,7 +53,7 @@ export default function Home() {
 
       <SkillMarquee />
 
-      <section id="projects" className="w-full p-8 lg:p-16">
+      <section id="projects" className="w-full pt-8 lg:pt-16 px-8 lg:px-16 max-w-[96rem] m-auto">
         <div className="grid lg:grid-cols-2 xl:grid-cols-3 gap-16">
           {projects.map((project, index) => (
             <article key={index} className="relative w-full group transition-transform transform lg:hover:scale-105 ease-in-out duration-500">
@@ -65,7 +63,7 @@ export default function Home() {
                 width={project.width}
                 height={project.height}
                 quality={100}
-                className="transition-transform transform lg:group-hover:shadow-2xl duration-500"
+                className="transition-transform transform lg:group-hover:shadow-2xl duration-500 rounded-lg"
                 sizes="(max-width: 1023px) calc(100vw - 16px), (min-width: 1024px) and (max-width: 1279px) calc(50vw - 32px), (min-width: 1280px) calc(33vw - 32px)"
                 loading='lazy'
               />
@@ -105,7 +103,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="team" className="flex flex-col items-center w-full gap-8 pb-8 px-8 lg:px-16 lg:pb-16">
+      <section id="team" className="flex flex-col items-center w-full gap-8 p-8 lg:p-16 max-w-[96rem] m-auto">
         <h2 >Where Innovation Fuels Passion</h2>
         <MemberDisplay />
       </section>

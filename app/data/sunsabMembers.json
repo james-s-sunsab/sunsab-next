@@ -35,87 +35,10 @@
     "linkedin": "https://www.linkedin.com/in/jhio-soriano-248b15254/"
   },
   {
-    "id": 15,
-    "name": "Austin Huynh",
-    "title": "Associate, Backend Development",
-    "img": "Austin.webp",
-    "linkedin": "https://www.linkedin.com/in/austin-huynh-6791b8186/"
-  },
-  {
     "id": 5,
     "name": "Dean Hulkenberg",
     "title": "Associate, Product Owner",
     "img": "Dean.webp",
     "linkedin": "https://www.linkedin.com/in/dean-hulkenberg-4b2527257/"
-  },
-  {
-    "id": 3,
-    "name": "Ahmed Hijazi",
-    "title": "Associate, Product Owner",
-    "img": "Ahmed.webp",
-    "linkedin": "https://www.linkedin.com/in/ahmed-hijazi49/"
-  },
-  {
-    "id": 4,
-    "name": "Angelo Fernando",
-    "title": "Associate, Product Owner",
-    "img": "Angelo.webp",
-    "linkedin": "https://www.linkedin.com/in/angelo-fernando-209088259/"
-  },
-  {
-    "id": 16,
-    "name": "Charles Ashmore",
-    "title": "Associate, Backend Development",
-    "img": "Charles.webp",
-    "linkedin": "https://www.linkedin.com/in/charles-ashmore-578634258/"
-  },
-  {
-    "id": 17,
-    "name": "Devon Woodruff",
-    "title": "Associate, Backend Development",
-    "img": "Devon.webp",
-    "linkedin": "https://www.linkedin.com/in/devon-woodruff-912777258"
-  },
-  {
-    "id": 6,
-    "name": "Tyler Le",
-    "title": "Associate, Product Owner",
-    "img": "Tyler.webp",
-    "linkedin": "https://www.linkedin.com/in/tyler-thai-le/"
-  },
-  {
-    "id": 10,
-    "name": "Martin Contreras",
-    "title": "Associate, Frontend Development",
-    "img": "Martin.webp",
-    "linkedin": "https://www.linkedin.com/in/martin-contreras-877437255/"
-  },
-  {
-    "id": 11,
-    "name": "Mausami Desai",
-    "title": "Associate, Frontend Development",
-    "img": "Mousamiben.webp",
-    "linkedin": "https://www.linkedin.com/in/mausami21/"
-  },
-  {
-    "id": 14,
-    "name": "Anthony Magpantay",
-    "title": "Associate, Backend Development",
-    "img": "Anthony.webp",
-    "linkedin": "https://www.linkedin.com/in/anthony-magpantay/"
-  },
-  {
-    "id": 19,
-    "name": "Mohamad Saleh",
-    "title": "Associate, Backend Development",
-    "img": "Mohamad.webp",
-    "linkedin": "https://www.linkedin.com/in/mohsley/"
-  },
-  {
-    "id": 20,
-    "name": "Trevor Wells",
-    "title": "Associate, Backend Development",
-    "img": "Trevor.webp",
-    "linkedin": "https://www.linkedin.com/in/trevor-wells-976b1b13b/"
   }
 ]

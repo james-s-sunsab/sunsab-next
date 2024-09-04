@@ -1,12 +1,11 @@
 import Image from 'next/image';
 import Link from 'next/link';
-
 export default function MemberCard({ name, title, img, linkedin }) {
     return (
-        <div className="card card-compact w-72 xl:w-96">
+        <div className="card card-compact w-full max-w-sm xl:max-w-md">
             <div className="card-body items-center text-center">
                 <div className="avatar">
-                    <div className="w-56 xl:w-72 rounded-full">
+                    <div className="w-56 xl:w-72 rounded-lg">
                         <Image
                             src={`/profiles/${img}`}
                             alt={`${name}'s Profile Picture`}
