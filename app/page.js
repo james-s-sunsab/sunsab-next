@@ -17,8 +17,8 @@ export default function Home() {
       <section id="home" className="flex items-center justify-center w-full min-h-screen-1/4">
         <div className="grid p-8 lg:p-24 gap-4 lg:max-w-4xl">
           <h1 >Solving Problems, Building Solutions</h1>
-          <p>Sunsab is where innovation fuels passion! We&apos;re a dynamic team of software developers armed with cutting-edge expertise in modern technologies. Our mission? To harness technology&apos;s power for positive global change.</p>
-          <p>We aspire to develop innovative solutions that empower individuals and businesses to thrive in a rapidly evolving digital landscape.</p>
+          <p>Sunsab is where passion fuels innovation! We&apos;re a dynamic team of software developers armed with cutting-edge expertise in modern technologies. Our mission? To harness technology&apos;s power for a positive change in the Canadian marketplace.</p>
+          <p>We aspire to develop impactful solutions that empower individuals and businesses to thrive in a rapidly evolving digital landscape.</p>
         </div>
       </section>
 
@@ -33,9 +33,7 @@ export default function Home() {
               <li>Cloud Hosting</li>
               <li>Database Management</li>
               <li>UI/UX Design</li>
-              <li>IoT Development</li>
               <li>E-commerce Solutions</li>
-              <li>Geolocation Services</li>
             </ul>
           </div>
           <div className="absolute lg:relative h-full lg:h-screen lg:w-1/2">
