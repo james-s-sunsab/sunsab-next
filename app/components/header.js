@@ -44,9 +44,9 @@ export default function Header() {
                         <li>
                             <Link href="#projects" aria-label="Go to projects section">Projects</Link>
                         </li>
-                        <li>
+                        {/* <li>
                             <Link href="#team" aria-label="Go to team section">Team</Link>
-                        </li>
+                        </li> */}
                         <li>
                             <Link href="#blog" aria-label="Go to blog section">Blog</Link>
                         </li>
@@ -81,13 +81,13 @@ export default function Header() {
                             </span>
                         </Link>
                     </li>
-                    <li>
+                    {/* <li>
                         <Link className="group transition-all duration-300 ease-in-out" href="#team" aria-label="Team section">
                             <span className="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_1px] lg:bg-[length:0%_2px] bg-no-repeat lg:group-hover:bg-[length:100%_2px] group-hover:bg-[length:100%_1px] transition-all duration-500 ease-out">
                                 Team
                             </span>
                         </Link>
-                    </li>
+                    </li> */}
                     <li>
                         <Link className="group transition-all duration-300 ease-in-out" href="#blog" aria-label="Blog section">
                             <span className="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_1px] lg:bg-[length:0%_2px] bg-no-repeat lg:group-hover:bg-[length:100%_2px] group-hover:bg-[length:100%_1px] transition-all duration-500 ease-out">

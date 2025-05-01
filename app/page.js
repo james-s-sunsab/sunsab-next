@@ -81,7 +81,7 @@ export default function Home() {
         </div>
         <div className="flex justify-center mt-8 lg:mt-16">
           <Link
-            className="group transition-all duration-300 ease-in-out text-black text-base lg:text-lg btn btn-primary"
+            className="group transition-all duration-300 ease-in-out text-black text-base lg:text-lg btn btn-primary mb-8 lg:mb-16"
             href="/Sunsab-Lookbook.pdf"
             download
             aria-label="Download the Lookbook"
@@ -103,10 +103,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="team" className="flex flex-col items-center w-full gap-8 p-8 lg:p-16 max-w-[96rem] m-auto">
+      {/* <section id="team" className="flex flex-col items-center w-full gap-8 p-8 lg:p-16 max-w-[96rem] m-auto">
         <h2 >Where Innovation Fuels Passion</h2>
         <MemberDisplay />
-      </section>
+      </section> */}
 
       <BlogDisplay />
 

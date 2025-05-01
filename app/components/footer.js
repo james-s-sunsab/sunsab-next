@@ -32,11 +32,11 @@ export default function Footer() {
                                     Services
                                 </span>
                             </Link>
-                            <Link className="group transition-all duration-300 ease-in-out" href="#team" aria-label="Go to team section">
+                            {/* <Link className="group transition-all duration-300 ease-in-out" href="#team" aria-label="Go to team section">
                                 <span className="bg-left-bottom bg-gradient-to-r from-black to-black bg-[length:0%_1px] lg:bg-[length:0%_2px] bg-no-repeat lg:group-hover:bg-[length:100%_2px] group-hover:bg-[length:100%_1px] transition-all duration-500 ease-out">
                                     Team
                                 </span>
-                            </Link>
+                            </Link> */}
                         </div>
                         <div className="flex flex-col gap-2 lg:gap-4">
                             <Link className="group transition-all duration-300 ease-in-out" href="#projects" aria-label="Go to projects section">
